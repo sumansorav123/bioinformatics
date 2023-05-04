@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* navbar logo img */
+.container-fluid img {
+    width: 50px;
+    height: 50px;
+}
+
+/* heading center image */
+.image {
+    background-image: url(center.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: fixed; */
+    color: #FFFFFF;
+}
+
+/* download syllabus button */
+.btn-syllabus {
+    position: absolute;
+    width: 12rem;
+    height: 50px;
+    left: 88px;
+    top: 457px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn-syllabus:hover {
+    background-color: rgb(123, 220, 237);
+}
+
+.jumbotron {
+    animation: move 1.5s infinite;
+}
+
+/* footer */
+
+footer .copyright {
+    text-align: center;
+    color: #fff;
+    background-color: crimson;
+    top: 169px;
+    margin-left: -7em;
+
+}
+
+/* keyframe of heading color */
+@keyframes move {
+    100% {
+        color: red;
+    }
+
+    20% {
+        color: rgb(181, 181, 67);
+    }
+
+    50% {
+        color: rgb(0, 157, 255);
+    }
+
+    100% {
+        color: rgb(2, 214, 2);
+    }
+}
